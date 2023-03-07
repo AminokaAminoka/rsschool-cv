@@ -1,2 +1,1 @@
-# rsschool-cv
-rsschool-cv
+https://AminokaAminoka.github.io/rsschool-cv/cv
