@@ -17,6 +17,27 @@ __Hello, I am a diligent, responsible person, a bit of an introvert. Currently I
 
 ## h2 Code Examples
 
+examples = (inputDate) => {
+    let todayDate = moment.utc();
+    if(inputDate){
+        let date = moment(new Date(inputDate));
+        date.set({hour: 0, minute: 0, second: 0, millisecond: 0})
+        today.set({hour: 0, minute: 0, second: 0, millisecond: 0})
+        let dateMill = date.valueOf()
+        let todayMill = today.valueOf();
+        let range = (todayMill - dateMill) / 86400000;
+        if (range < 1 || range == 0) {
+            return 'Today'
+        } else if (range < 2 || range == 1) {
+            return 'Yesterday'
+        } else if (range == -1) {
+            return 'Tomorrow'
+        } else {
+            return date.format('DD-MM-YYYY')
+        }
+    } else return '-'
+}
+
 ##  h2 Education
 +__Northeastern federal university, bachelor physics__
 +__Northeastern federal university, magistracy physics__
