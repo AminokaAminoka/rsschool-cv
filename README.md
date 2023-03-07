@@ -1,1 +1,1 @@
-https://AminokaAminoka.github.io/rsschool-cv/cv
+https://aminokaaminoka.github.io/rsschool-cv/cv
