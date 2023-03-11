@@ -1,2 +1,1 @@
-# rsschool-cv
-rsschool-cv
+https://aminokaaminoka.github.io/cssBayan/cssBayan/index.html
