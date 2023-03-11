@@ -1,1 +1,1 @@
-https://aminokaaminoka.github.io/rsschool-cv/cv
+https://aminokaaminoka.github.io/cssBayan/cssBayan/index.html
